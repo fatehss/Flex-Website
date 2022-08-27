@@ -1,0 +1,130 @@
+body {
+
+    margin: 0;
+    font-family: "Hero Main";
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #1F2937;
+    color: white;
+    width: 100%;
+}
+
+.header-bar {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 50px;
+    padding-right:50px;
+    padding-top: 10px;
+
+}
+.header-bar ul li {
+    display: inline;
+    margin: 8px;
+    
+}
+.header-bar ul{
+    padding: 0;
+    margin: 0;
+}
+.header-container {
+    display: inline-flex;
+    flex: 1 1 auto;
+    justify-content: space-between;
+    padding: 50px;
+    margin: 50px;
+    margin-top: 0px;
+
+}
+.header-left {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    left: 100%;
+    margin-right: 10px;
+}
+
+.header-left button {
+    align-self: flex-start;
+}
+.header-left, .header-right {
+    width: 50%;
+}
+
+.header-right {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+
+}
+
+.showcase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.showcase-info {
+    font-size: 36px;
+    font: #1F2937;
+    font-weight: 900;
+    margin: 30px;
+}
+
+.img-boxes{
+    display: flex;
+    justify-content: center;
+}
+
+.box-text-pair {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.box {
+    width: 150px;
+    height:150px;
+    margin: 10px;
+    border-radius: 15px;
+    border-style: solid;
+    background-color: aliceblue;
+    border-color: #1F2937;
+}
+
+
+.quote-box {
+    background-color: red;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    
+}
+.quote {
+
+    width: 700px;
+    flex: 0 0 auto;
+    font-size: 36px;
+}
+
+.quote-credit {
+    
+    width: 700px;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+
+}
